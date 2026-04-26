@@ -15,7 +15,7 @@ pipeline {
 
         stage('docker build') {
             steps {
-                sh 'sudo docker build -t umangkhandelwal/prt2026:v1 .'
+                sh 'sudo docker build -t umangkhandelwal/prtapril2026:v1 .'
             }
         }
 
